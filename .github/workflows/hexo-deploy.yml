@@ -18,7 +18,9 @@ jobs:
           node-version: '20'  # 更新Node.js版本到20
 
       - name: Install dependencies
-        run: npm install
+        run: |
+          npm install
+          npm install -g hexo-cli  # 全局安装Hexo CLI
 
       - name: Generate static files
         run: hexo generate
