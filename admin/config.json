@@ -1,0 +1,1 @@
+{"backend":{"name":"github","repo":"NCUSCC/blog-ncuscc","branch":"main"},"media_folder":"source/images","public_folder":"/images","collections":[{"name":"post","label":"Post","folder":"source/_posts","create":true,"fields":[{"label":"Title","name":"title","widget":"string"},{"label":"Date","name":"date","widget":"datetime"},{"label":"Body","name":"body","widget":"markdown"}]}]}
