@@ -2,6 +2,7 @@ backend:
   name: github
   repo: NCUSCC/blog-ncuscc  # 使用组织名和仓库名
   branch: main  # 或者是你使用的默认分支，如main
+  auth_endpoint: auth
   base_url: https://ncuscc.github.io/blog-ncuscc
 
 media_folder: "source/images"  # 媒体文件存储位置
