@@ -10,17 +10,25 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3  # 更新到最新版本
+        uses: actions/checkout@v3
+        with:
+          submodules: true  # 确保子模块也被检出
 
       - name: Set up Node.js
-        uses: actions/setup-node@v3  # 更新到最新版本
+        uses: actions/setup-node@v3
         with:
-          node-version: '20'  # 更新Node.js版本到20
+          node-version: '20'  # 使用Node.js 20版本
 
       - name: Install dependencies
         run: |
           npm install
           npm install -g hexo-cli  # 全局安装Hexo CLI
+          npm install hexo-renderer-pug hexo-renderer-stylus --save  # 安装必要的渲染器
+
+      - name: Install Butterfly theme dependencies
+        run: |
+          cd themes/butterfly
+          npm install  # 确保主题的特定依赖也被安装
 
       - name: Generate static files
         run: hexo generate
@@ -30,3 +38,6 @@ jobs:
         with:
           github_token: ${{ secrets.DEPLOY_TOKEN }}
           publish_dir: ./public
+
+      - name: List output files
+        run: ls -alh ./public  # 列出public目录下的文件，用于调试
