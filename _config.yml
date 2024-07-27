@@ -30,6 +30,7 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
   - "admin/config.yml"
+  - "admin/**/*"
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -93,6 +94,7 @@ pagination_dir: page
 include:
 exclude:
 ignore:
+  - "admin/**/*"
 
 
 # Extensions
