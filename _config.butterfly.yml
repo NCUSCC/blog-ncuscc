@@ -60,7 +60,7 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: /images/v2-8d6de805b06aab7d039b10950a781f7c_1440w.webp
+index_img: /images/cover.jpg
 
 # If the banner of page not setting, it will show the top_img
 default_top_img:
@@ -290,7 +290,7 @@ busuanzi:
 # Time difference between publish date and now (網頁運行時間)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
-  enable: true
+  enable: false
   publish_date: '2024-09-21T01:30:30Z'
 
 # Aside widget - Newest Comments
@@ -689,10 +689,10 @@ text_align_justify: false
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background:
+background: url(http://ywh555hhh.github.io/home/background.svg)
 
 # Footer Background
-footer_bg: false
+footer_bg: true
 
 # Add mask to header or footer (为 header 或 footer 添加黑色半透遮罩)
 mask:
@@ -769,18 +769,20 @@ display_mode: light
 
 # Beautify (美化頁面顯示)
 beautify:
-  enable: false
+  enable: true
   field: post # site/post
   title-prefix-icon: # '\f0c1'
   title-prefix-icon-color: # '#F47466'
 
 # Global font settings
 # Don't modify the following settings unless you know how they work (非必要不要修改)
+# Global font settings
+# Don't modify the following settings unless you know how they work (非必要不要修改)
 font:
-  global-font-size:
-  code-font-size:
-  font-family:
-  code-font-family:
+  global-font-size: 16px  # 根据需要调整
+  code-font-size: 14px  # 代码的默认字体大小
+  font-family: Roboto
+  code-font-family: Menlo
 
 # Font settings for the site title and site subtitle
 # 左上角網站名字 主頁居中網站名字
@@ -796,7 +798,7 @@ hr_icon:
 
 # the subtitle on homepage (主頁subtitle)
 subtitle:
-  enable: false
+  enable: true
   # Typewriter Effect (打字效果)
   effect: true
   # Customize typed.js (配置typed.js)
