@@ -689,7 +689,7 @@ text_align_justify: false
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background: url(http://ywh555hhh.github.io/home/background.svg)
+background: url(https://ncuscc.github.io/blog-ncuscc/images/Sprinkle.svg)
 
 # Footer Background
 footer_bg: true
