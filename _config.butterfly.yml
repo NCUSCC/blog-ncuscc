@@ -66,7 +66,7 @@ index_img: /images/cover.jpg
 default_top_img:
 
 # The banner image of archive page
-archive_img:
+archive_img: /images/cover2.jpg
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
@@ -689,8 +689,7 @@ text_align_justify: false
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background: url(https://ncuscc.github.io/blog-ncuscc/images/Sprinkle.svg)
-
+background: url(https://ncuscc.github.io/blog-ncuscc/images/large-triangles.svg)
 # Footer Background
 footer_bg: true
 
