@@ -632,7 +632,7 @@ theme_color:
   toc_color: "#333333"       # 目录颜色为深灰色，保持简洁
   blockquote_padding_color: "#333333"  # 引用框边框颜色为深灰色
   blockquote_background_color: "#F5F5F5"  # 引用框背景颜色为浅灰色，轻松阅读
-  scrollbar_color: "#333223"  # 滚动条颜色为黑色，确保低调沉稳
+  scrollbar_color: "#2B2B2B"  # 滚动条颜色为黑色，确保低调沉稳
   meta_theme_color_light: "#FFFFFF"  # 浅色模式下的元颜色为白色，明亮简洁
   meta_theme_color_dark: "#0F52BA"   # 深色模式下的元颜色为Sapphire，富有高级感
 
