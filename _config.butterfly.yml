@@ -42,8 +42,8 @@ highlight_fullpage: true # true: add button to toggle full page
 # formal:
 #   icon: link || the description || color
 social:
-  fab fa-github: https://github.com/NCUSCC || Github || '#24292e'
-  fab fa-qq: https://qm.qq.com/q/UlTp2b5VQW || QQ Group || '#24292e'
+  fab fa-github: https://github.com/NCUSCC || Github || '#0F52BA'
+  fab fa-qq: https://qm.qq.com/q/UlTp2b5VQW || QQ Group || '#0F52BA'
 
 # Image (圖片設置)
 # --------------------------------------
