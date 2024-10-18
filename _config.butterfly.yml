@@ -620,43 +620,43 @@ site_verification:
 
 theme_color:
   enable: true
-  main: "#0F52BA"           # Sapphire 作为主色
-  paginator: "#4FAED7"       # Blue Diamond 作为辅助色
-  button_hover: "#FFA500"    # 按钮悬停颜色为亮橙色，增强交互性
-  text_selection: "#4FAED7"  # 文本选中颜色为 Blue Diamond
-  link_color: "#0F52BA"      # 链接颜色为 Sapphire，保持统一
-  meta_color: "#FFFFFF"      # 字体颜色为白色
-  hr_color: "#F5F5F5"        # 分割线颜色为浅灰色，柔和过渡
-  code_foreground: "#333333" # 代码块字体颜色为深灰色，便于阅读
-  code_background: "#F5F5F5" # 代码块背景颜色为浅灰色
-  toc_color: "#4FAED7"       # 目录颜色为 Blue Diamond
-  blockquote_padding_color: "#0F52BA"  # 引用框边框颜色为 Sapphire
-  blockquote_background_color: "#F5F5F5"  # 引用框背景颜色为浅灰色
-  scrollbar_color: "#4FAED7"  # 滚动条颜色为 Blue Diamond
-  meta_theme_color_light: "#FFFFFF"  # 浅色模式下的元颜色
-  meta_theme_color_dark: "#0F52BA"   # 深色模式下的元颜色
+  main: "#0F52BA"           # 主色为白色，保持简洁清爽的背景
+  paginator: "#E5E5E5"       # 分页器颜色为浅灰色，简约大气
+  button_hover: "#1C6DD0"    # 按钮悬停时，黑底边框为Sapphire，高级感增强
+  text_selection: "#0F52BA"  # 文本选中颜色为Sapphire，作为隐藏点缀
+  link_color: "#0F52BA"      # 链接颜色为Sapphire，提供视觉焦点
+  meta_color: "#333333"      # 字体颜色为深灰色，确保易读性
+  hr_color: "#E5E5E5"        # 分割线颜色为浅灰色，保持干净整洁
+  code_foreground: "#FFFFFF" # 代码块字体颜色为白色，凸显科技感
+  code_background: "#1A1A1A" # 代码块背景颜色为深黑色，形成鲜明对比
+  toc_color: "#333333"       # 目录颜色为深灰色，保持简洁
+  blockquote_padding_color: "#333333"  # 引用框边框颜色为深灰色
+  blockquote_background_color: "#F5F5F5"  # 引用框背景颜色为浅灰色，轻松阅读
+  scrollbar_color: "#333333"  # 滚动条颜色为黑色，确保低调沉稳
+  meta_theme_color_light: "#FFFFFF"  # 浅色模式下的元颜色为白色，明亮简洁
+  meta_theme_color_dark: "#0F52BA"   # 深色模式下的元颜色为Sapphire，富有高级感
 
   # 其他元素颜色
-  button_background: "#0F52BA"       # 按钮背景颜色为 Sapphire
-  button_border: "#4FAED7"           # 按钮边框颜色为 Blue Diamond
-  input_border: "#4FAED7"            # 输入框边框颜色为 Blue Diamond
-  input_focus: "#FFA500"             # 输入框聚焦颜色为亮橙色
-  table_header_background: "#0F52BA" # 表头背景颜色为 Sapphire
-  table_border_color: "#F5F5F5"      # 表格边框颜色为浅灰色
-  alert_background: "#FFA500"        # 提示框背景色为亮橙色
-  alert_border: "#0F52BA"            # 提示框边框颜色为 Sapphire
+  button_background: "#000000"       # 按钮背景颜色为黑色，极简风格
+  button_border: "#E5E5E5"           # 按钮边框为浅灰色，显得干净利落
+  input_border: "#333333"            # 输入框边框颜色为深灰色，简洁大气
+  input_focus: "#FFFFFF"             # 输入框聚焦颜色为白色，强调交互
+  table_header_background: "#F5F5F5" # 表头背景颜色为浅灰色，清晰整洁
+  table_border_color: "#E5E5E5"      # 表格边框颜色为浅灰色，增强层次感
+  alert_background: "#333333"        # 提示框背景色为深灰色，稳重大气
+  alert_border: "#0F52BA"            # 提示框边框颜色为Sapphire，增加辨识度
 
   # 页脚与页眉
-  footer_background: "#333333"       # 页脚背景为深灰色，稳重而不失美感
-  footer_text: "#FFFFFF"             # 页脚文字为白色
-  header_background: "#0F52BA"       # 页眉背景为 Sapphire
-  header_text: "#FFFFFF"             # 页眉文字为白色
+  footer_background: "#1A1A1A"       # 页脚背景为深黑色，稳重典雅
+  footer_text: "#FFFFFF"             # 页脚文字为白色，易读性强
+  header_background: "#FFFFFF"       # 页眉背景为白色，清爽简洁
+  header_text: "#000000"             # 页眉文字为黑色，简约明了
 
   # 侧边栏
-  aside_background: "#F5F5F5"        # 侧边栏背景为浅灰色
-  aside_text: "#333333"              # 侧边栏文字为深灰色
-  aside_link: "#0F52BA"              # 侧边栏链接为 Sapphire
-  aside_link_hover: "#FFA500"        # 侧边栏链接悬停为亮橙色
+  aside_background: "#F5F5F5"        # 侧边栏背景为浅灰色，柔和舒适
+  aside_text: "#333333"              # 侧边栏文字为深灰色，阅读体验良好
+  aside_link: "#0F52BA"              # 侧边栏链接为Sapphire，突出导航
+  aside_link_hover: "#333333"        # 侧边栏链接悬停为深灰色，避免视觉突兀
 #   text_selection: "#00c4b6"
 #   link_color: "#99a9bf"
 #   meta_color: "#858585"
@@ -691,7 +691,7 @@ text_align_justify: false
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
 background: url(https://ncuscc.github.io/blog-ncuscc/images/large-triangles.svg)
 # Footer Background
-footer_bg: true
+footer_bg: /images/foot.svg
 
 # Add mask to header or footer (为 header 或 footer 添加黑色半透遮罩)
 mask:
