@@ -1329,8 +1329,8 @@ canvas:not(#ribbon-canvas),
   --global-font-size: 16px;
   --global-bg: #fff;
   --font-color: #4c4948;
-  --hr-border: #fafafa;
-  --hr-before-color: #f8f8f8;
+  --hr-border: #f2f2f2;
+  --hr-before-color: #ededed;
   --search-bg: #f6f8fa;
   --search-input-color: #4c4948;
   --search-a-color: #4c4948;
@@ -1343,7 +1343,7 @@ canvas:not(#ribbon-canvas),
   --tab-button-active-bg: #fff;
   --card-bg: #fff;
   --sidebar-bg: #f6f8fa;
-  --btn-hover-color: #ffa500;
+  --btn-hover-color: #1c6dd0;
   --btn-color: #fff;
   --btn-bg: #0f52ba;
   --text-bg-hover: rgba(15,82,186,0.7);
@@ -1357,9 +1357,9 @@ canvas:not(#ribbon-canvas),
   --toc-link-color: #666261;
   --card-box-shadow: 0 3px 8px 6px rgba(7,17,27,0.05);
   --card-hover-box-shadow: 0 3px 8px 6px rgba(7,17,27,0.09);
-  --pseudo-hover: #ffa500;
+  --pseudo-hover: #1c6dd0;
   --headline-presudo: #a0a0a0;
-  --scrollbar-color: #4faed7;
+  --scrollbar-color: #333;
   --default-bg-color: #0f52ba;
   --zoom-bg: #fff;
   --mark-bg: rgba(0,0,0,0.3);
@@ -1448,7 +1448,7 @@ table td {
   vertical-align: middle;
 }
 *::selection {
-  background: #4faed7;
+  background: #0f52ba;
   color: #f7f7f7;
 }
 button {
@@ -1498,7 +1498,7 @@ img:not([src]) {
 blockquote {
   margin: 0 0 20px;
   padding: 12px 15px;
-  border-left: 3px solid #0f52ba;
+  border-left: 3px solid #333;
   background-color: var(--blockquote-bg);
   color: var(--blockquote-color);
 }
@@ -1647,8 +1647,8 @@ figure.highlight pre .javascript .function {
 }
 #article-container code {
   padding: 2px 4px;
-  background: #f5f5f5;
-  color: #333;
+  background: #1a1a1a;
+  color: #fff;
 }
 #article-container pre {
   padding: 10px 20px;
@@ -2161,7 +2161,7 @@ figure.highlight pre .javascript .function {
   border-color: var(--pseudo-hover);
 }
 .article-sort-item-time {
-  color: #fff;
+  color: #333;
   font-size: 95%;
 }
 .article-sort-item-time time {
@@ -2220,7 +2220,7 @@ figure.highlight pre .javascript .function {
 }
 .category-lists .category-list .category-list-count {
   margin-left: 8px;
-  color: #fff;
+  color: #333;
 }
 .category-lists .category-list .category-list-count:before {
   content: '(';
@@ -2572,7 +2572,7 @@ figure.highlight pre .javascript .function {
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap {
   margin: 6px 0;
-  color: #fff;
+  color: #333;
   font-size: 0.9em;
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap > .post-meta-date {
@@ -2594,7 +2594,7 @@ figure.highlight pre .javascript .function {
   margin: 0 4px;
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap a {
-  color: #fff;
+  color: #333;
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap a:hover {
   color: #0f52ba;
@@ -2786,7 +2786,7 @@ h1.page-title + .tag-cloud-list {
 #aside-content .aside-list > .aside-list-item .content > time,
 #aside-content .aside-list > .aside-list-item .content > .name {
   display: block;
-  color: #fff;
+  color: #333;
   font-size: 85%;
 }
 #aside-content .aside-list > .aside-list-item .content > .title,
@@ -3008,7 +3008,7 @@ h1.page-title + .tag-cloud-list {
   color: #0f52ba;
 }
 #aside-content #card-toc .toc-content .toc-link.active {
-  background: #4faed7;
+  background: #333;
   color: #fff;
 }
 #aside-content .sticky_layout:only-child > :first-child {
@@ -3908,7 +3908,7 @@ h1.page-title + .tag-cloud-list {
   text-align: center;
 }
 #pagination .page-number.current {
-  background: #4faed7;
+  background: #e5e5e5;
   color: var(--white);
 }
 #pagination .pagination-info {
@@ -4603,7 +4603,7 @@ h1.page-title + .tag-cloud-list {
 #waline-wrap {
   --waline-font-size: 1.1em;
   --waline-theme-color: #0f52ba;
-  --waline-active-color: #ffa500;
+  --waline-active-color: #1c6dd0;
 }
 #waline-wrap .wl-comment-actions > button:not(last-child) {
   padding-right: 4px;
@@ -6048,7 +6048,7 @@ blockquote.pullquote.right {
   box-shadow: none;
 }
 [data-theme='dark'] #article-container .note code {
-  background: #f5f5f5;
+  background: #1a1a1a;
 }
 [data-theme='dark'] #article-container .aplayer {
   filter: brightness(0.8);
