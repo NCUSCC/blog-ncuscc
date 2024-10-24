@@ -1,0 +1,254 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>清华大学开源操作系统训练营 - 南昌大学线下学习小组宣讲会纪实 | 南昌大学超算俱乐部</title><meta name="author" content="南昌大学超算俱乐部"><meta name="copyright" content="南昌大学超算俱乐部"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#FFFFFF"><meta name="description" content="清华大学开源操作系统训练营 - 南昌大学线下学习小组宣讲会纪实 昨晚7点半，南昌大学机电楼E114教室迎来了清华大学开源操作系统训练营的线下宣讲会。这是一次由清华大学操作系统实验室主办，南昌大学超算俱乐部（NCUSCC）承办的盛大活动。与会人员主要是南昌大学计算机相关专业的同学，大家怀着对操作系统和开源技术的强烈兴趣而来，现场座无虚席，气氛热烈。  宣讲会开始：探索开源操作系统的世界  宣讲会在热">
+<meta property="og:type" content="article">
+<meta property="og:title" content="清华大学开源操作系统训练营 - 南昌大学线下学习小组宣讲会纪实">
+<meta property="og:url" content="https://ncuscc.github.io/blog-ncuscc/2024/09/27/2/">
+<meta property="og:site_name" content="南昌大学超算俱乐部">
+<meta property="og:description" content="清华大学开源操作系统训练营 - 南昌大学线下学习小组宣讲会纪实 昨晚7点半，南昌大学机电楼E114教室迎来了清华大学开源操作系统训练营的线下宣讲会。这是一次由清华大学操作系统实验室主办，南昌大学超算俱乐部（NCUSCC）承办的盛大活动。与会人员主要是南昌大学计算机相关专业的同学，大家怀着对操作系统和开源技术的强烈兴趣而来，现场座无虚席，气氛热烈。  宣讲会开始：探索开源操作系统的世界  宣讲会在热">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://ncuscc.github.io/blog-ncuscc/home/NCUSCCLOGO.svg">
+<meta property="article:published_time" content="2024-09-27T13:31:00.000Z">
+<meta property="article:modified_time" content="2024-10-24T10:44:58.437Z">
+<meta property="article:author" content="南昌大学超算俱乐部">
+<meta property="article:tag" content="南昌大学, 超算, 俱乐部, NCUSCC, 南昌大学超算俱乐部, HPC, High Performance Computing">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://ncuscc.github.io/blog-ncuscc/home/NCUSCCLOGO.svg"><link rel="shortcut icon" href="/blog-ncuscc/home/NCUSCCLOGO.svg"><link rel="canonical" href="https://ncuscc.github.io/blog-ncuscc/2024/09/27/2/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/blog-ncuscc/css/index.css?v=4.14.0-b3"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.35/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>(()=>{
+      const saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+      
+      window.btf = {
+        saveToLocal: saveToLocal,
+        getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+          const script = document.createElement('script')
+          script.src = url
+          script.async = true
+          script.onerror = reject
+          script.onload = script.onreadystatechange = function() {
+            const loadState = this.readyState
+            if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+            script.onload = script.onreadystatechange = null
+            resolve()
+          }
+
+          Object.keys(attr).forEach(key => {
+            script.setAttribute(key, attr[key])
+          })
+
+          document.head.appendChild(script)
+        }),
+
+        getCSS: (url, id = false) => new Promise((resolve, reject) => {
+          const link = document.createElement('link')
+          link.rel = 'stylesheet'
+          link.href = url
+          if (id) link.id = id
+          link.onerror = reject
+          link.onload = link.onreadystatechange = function() {
+            const loadState = this.readyState
+            if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+            link.onload = link.onreadystatechange = null
+            resolve()
+          }
+          document.head.appendChild(link)
+        }),
+
+        addGlobalFn: (key, fn, name = false, parent = window) => {
+          const pjaxEnable = false
+          if (!pjaxEnable && key.startsWith('pjax')) return
+
+          const globalFn = parent.globalFn || {}
+          const keyObj = globalFn[key] || {}
+    
+          if (name && keyObj[name]) return
+    
+          name = name || Object.keys(keyObj).length
+          keyObj[name] = fn
+          globalFn[key] = keyObj
+          parent.globalFn = globalFn
+        }
+      }
+    
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0F52BA')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#FFFFFF')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+      
+      const t = saveToLocal.get('theme')
+    
+        if (t === 'dark') activateDarkMode()
+        else if (t === 'light') activateLightMode()
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })()</script><script>const GLOBAL_CONFIG = {
+  root: '/blog-ncuscc/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":200,"highlightFullpage":true,"highlightMacStyle":true},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"limitCount":100,"languages":{"author":"作者: 南昌大学超算俱乐部","link":"链接: ","source":"来源: 南昌大学超算俱乐部","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.11.1/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: true,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: ture,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '清华大学开源操作系统训练营 - 南昌大学线下学习小组宣讲会纪实',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2024-10-24 18:44:58'
+}</script><meta name="generator" content="Hexo 7.3.0"></head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/blog-ncuscc/home/NCUSCCLOGO.svg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/blog-ncuscc/archives/"><div class="headline">文章</div><div class="length-num">3</div></a><a href="/blog-ncuscc/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/blog-ncuscc/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/blog-ncuscc/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fa-solid fa-newspaper"></i><span> Articals</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/blog-ncuscc/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></li><li><a class="site-page child" href="/blog-ncuscc/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></li><li><a class="site-page child" href="/blog-ncuscc/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/blog-ncuscc/projects/"><i class="fa-fw fas fa-code"></i><span> Projects</span></a></div><div class="menus_item"><a class="site-page" href="/blog-ncuscc/aboutus/"><i class="fa-fw fas fa-info-circle"></i><span> About Us</span></a></div><div class="menus_item"><a class="site-page" href="/blog-ncuscc/contact/"><i class="fa-fw fas fa-envelope"></i><span> Contact</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog-info"><a href="/blog-ncuscc/" title="南昌大学超算俱乐部"><span class="site-name">南昌大学超算俱乐部</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/blog-ncuscc/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fa-solid fa-newspaper"></i><span> Articals</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/blog-ncuscc/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></li><li><a class="site-page child" href="/blog-ncuscc/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></li><li><a class="site-page child" href="/blog-ncuscc/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/blog-ncuscc/projects/"><i class="fa-fw fas fa-code"></i><span> Projects</span></a></div><div class="menus_item"><a class="site-page" href="/blog-ncuscc/aboutus/"><i class="fa-fw fas fa-info-circle"></i><span> About Us</span></a></div><div class="menus_item"><a class="site-page" href="/blog-ncuscc/contact/"><i class="fa-fw fas fa-envelope"></i><span> Contact</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">清华大学开源操作系统训练营 - 南昌大学线下学习小组宣讲会纪实</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-09-27T13:31:00.000Z" title="发表于 2024-09-27 21:31:00">2024-09-27</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-10-24T10:44:58.437Z" title="更新于 2024-10-24 18:44:58">2024-10-24</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="清华大学开源操作系统训练营 - 南昌大学线下学习小组宣讲会纪实"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p><strong>清华大学开源操作系统训练营 - 南昌大学线下学习小组宣讲会纪实</strong></p>
+<p>昨晚7点半，南昌大学机电楼E114教室迎来了清华大学开源操作系统训练营的线下宣讲会。这是一次由清华大学操作系统实验室主办，<strong>南昌大学超算俱乐部（NCUSCC）</strong>承办的盛大活动。与会人员主要是南昌大学计算机相关专业的同学，大家怀着对操作系统和开源技术的强烈兴趣而来，现场座无虚席，气氛热烈。</p>
+<p><img src="/blog-ncuscc/images/72994632f3340a1983774096d0b497b3.jpg"></p>
+<p><strong>宣讲会开始：探索开源操作系统的世界</strong></p>
+<p><img src="/blog-ncuscc/images/5ae6fe5be8ba96c7ee7edd029a5bba0d.jpg"></p>
+<p>宣讲会在热烈的掌声中拉开帷幕，南昌大学超算俱乐部的主持人简明扼要地介绍了此次训练营的背景。作为清华大学操作系统实验室发起的开源项目，本次训练营内容涵盖了Rust编程、RISC-V体系架构，以及基于rCore&#x2F;uCore操作系统设计与开发的大实验，此外还设有自选项目实习。线上训练时间从2024年9月29日到12月21日，为期近三个月。</p>
+<p>特别值得一提的是，这次活动将以线下学习小组的形式在南昌大学展开。南昌大学超算俱乐部（NCUSCC）将每两周组织一次线下讨论，帮助学员们在理论与实践中深化理解，共同探讨解决学习中的难题。</p>
+<p><strong>开源：从概念到实践</strong></p>
+<p>随后，主讲人详细介绍了开源技术的概念，强调了其在现代软件开发中的重要性。通过开源，全球开发者可以共享代码、改进项目，乃至推动技术的迭代发展。主讲人引用了多个成功的开源项目案例，展示了开源技术对技术创新的巨大推动力。</p>
+<p>谈到开源对大学生的重要性时，主讲人鼓励大家积极参与开源项目，认为这是增强编程实力、提升个人影响力的最佳途径之一。参与开源不仅是自我成长的机会，更是与全球顶尖开发者合作的平台。</p>
+<p><img src="/blog-ncuscc/images/0b229a01a4f2e028553bbfff113c7e5f.jpg"></p>
+<p><strong>训练营亮点：操作系统的实战演练</strong></p>
+<p>主讲人详细介绍了本次训练营的核心内容，涵盖了Rust编程语言的应用、RISC-V架构的探索，以及基于rCore&#x2F;uCore操作系统的开发实践。同学们对这些前沿技术展现出浓厚的兴趣，尤其是Rust语言的学习和实际操作部分引起了现场的积极讨论。</p>
+<p>此外，训练营还为优秀学员提供独特的机会。清华大学操作系统实验室将为表现优异的学员提供实习机会，并且参与项目结题的同学还有机会获得项目结题证书及官方纪念品，这些激励措施进一步点燃了大家参与的热情。</p>
+<p><strong>现场互动：热情高涨</strong></p>
+<p>宣讲会的尾声迎来了问答环节。许多同学针对训练营的参与方式、学习难度和时间安排等方面提出了疑问。超算俱乐部的学长学姐结合自己的经验，分享了如何在繁忙的学业中合理分配时间以高效参与这类训练项目。</p>
+<p>大家尤其关注每两周一次的线下学习小组活动，学员们通过这些线下活动在实践中获得指导，解决线上训练中的实际问题，进一步加深对操作系统设计的理解。对于许多未接触过开源项目的同学来说，这无疑是一次宝贵的学习与成长机会。</p>
+<p><strong>宣讲会总结</strong></p>
+<p>此次宣讲会不仅帮助同学们深入了解清华大学开源操作系统训练营的内容，也为南昌大学的学子提供了难得的学习机会。线下学习小组将成为一个强有力的学习平台，助力大家掌握前沿技术，融入开源社区。</p>
+<p>在激烈的竞争和快速发展的科技背景下，参与此类高水平训练营无疑将为同学们的职业生涯打下坚实的基础。通过这次宣讲会，大家对开源技术和操作系统设计的认识更加深入，也更加坚定了投身其中的决心。</p>
+<p><strong>结语</strong></p>
+<p>开源是未来技术发展的重要方向，而操作系统作为计算机科学的核心领域之一，学习其设计与开发将为学术和职业发展提供广阔的空间。此次宣讲会为我们开启了一扇通向未来的门，希望更多同学加入开源操作系统训练营的学习中，与全国的优秀学员一起，在开源的道路上不断前行。</p>
+<p>如果你错过了这次宣讲会，别担心，加入我们的交流QQ群：865467108，获取更多关于训练营的最新信息，让我们一起学习、成长！</p>
+<p><strong>未来已来，开源共进！</strong></p>
+<p><strong>NCUSCC</strong></p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://ncuscc.github.io/blog-ncuscc">南昌大学超算俱乐部</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://ncuscc.github.io/blog-ncuscc/2024/09/27/2/">https://ncuscc.github.io/blog-ncuscc/2024/09/27/2/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://ncuscc.github.io/blog-ncuscc" target="_blank">南昌大学超算俱乐部</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"></div><div class="post_share"><div class="social-share" data-image="/blog-ncuscc/home/NCUSCCLOGO.svg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/blog-ncuscc/2024/07/27/asfasdasdd/" title="2024 夏季宣讲会"><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">2024 夏季宣讲会</div></div></a></div><div class="next-post pull-right"><a href="/blog-ncuscc/2024/10/24/hello-world/" title="Hello World"><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Hello World</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/blog-ncuscc/home/NCUSCCLOGO.svg" onerror="this.onerror=null;this.src='/blog-ncuscc/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">南昌大学超算俱乐部</div><div class="author-info__description">很酷的人一起做很酷的事</div></div><div class="card-info-data site-data is-center"><a href="/blog-ncuscc/archives/"><div class="headline">文章</div><div class="length-num">3</div></a><a href="/blog-ncuscc/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/blog-ncuscc/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://docs.qq.com/aio/DWktQa2lvRGhKS0dC"><i class="fas fa-users"></i><span>Join Us Now!</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/NCUSCC" target="_blank" title="Github"><i class="fab fa-github" style="color: #0F52BA;"></i></a><a class="social-icon" href="https://qm.qq.com/q/UlTp2b5VQW" target="_blank" title="QQ Group"><i class="fab fa-qq" style="color: #0F52BA;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">我们正在备战全国大学生超算竞赛！</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/blog-ncuscc/2024/10/24/hello-world/" title="Hello World">Hello World</a><time datetime="2024-10-24T10:38:00.000Z" title="发表于 2024-10-24 18:38:00">2024-10-24</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/blog-ncuscc/2024/09/27/2/" title="清华大学开源操作系统训练营 - 南昌大学线下学习小组宣讲会纪实">清华大学开源操作系统训练营 - 南昌大学线下学习小组宣讲会纪实</a><time datetime="2024-09-27T13:31:00.000Z" title="发表于 2024-09-27 21:31:00">2024-09-27</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/blog-ncuscc/2024/07/27/asfasdasdd/" title="2024 夏季宣讲会">2024 夏季宣讲会</a><time datetime="2024-07-27T07:59:00.000Z" title="发表于 2024-07-27 15:59:00">2024-07-27</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url('/blog-ncuscc/images/foot.svg')"><div id="footer-wrap"><div class="copyright">&copy;2024 By 南昌大学超算俱乐部</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">谢谢你的浏览，欢迎再次光临！</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/blog-ncuscc/js/utils.js?v=4.14.0-b3"></script><script src="/blog-ncuscc/js/main.js?v=4.14.0-b3"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.35/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"><script>(() => {
+  const runMermaid = (ele) => {
+    window.loadMermaid = true
+    const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'default'
+
+    Array.from(ele).forEach((item, index) => {
+      const mermaidSrc = item.firstElementChild
+      const mermaidThemeConfig = '%%{init:{ \'theme\':\'' + theme + '\'}}%%\n'
+      const mermaidID = 'mermaid-' + index
+      const mermaidDefinition = mermaidThemeConfig + mermaidSrc.textContent
+
+      const renderFn = mermaid.render(mermaidID, mermaidDefinition)
+
+      const renderV10 = () => {
+        renderFn.then(({svg}) => {
+          mermaidSrc.insertAdjacentHTML('afterend', svg)
+        })
+      }
+
+      const renderV9 = svg => {
+        mermaidSrc.insertAdjacentHTML('afterend', svg)
+      }
+
+      typeof renderFn === 'string' ? renderV9(renderFn) : renderV10()
+    })
+  }
+
+  const codeToMermaid = () => {
+    const codeMermaidEle = document.querySelectorAll('pre > code.mermaid')
+    if (codeMermaidEle.length === 0) return
+    
+    codeMermaidEle.forEach(ele => {
+      const newEle = document.createElement('div')
+      newEle.className = 'mermaid-wrap'
+      newEle.innerHTML = `<pre class="mermaid-src" hidden>${ele.textContent}</pre>`
+      ele.parentNode.replaceWith(newEle)
+    })
+  }
+
+  const loadMermaid = () => {
+    if (false) codeToMermaid()
+    const $mermaid = document.querySelectorAll('#article-container .mermaid-wrap')
+    if ($mermaid.length === 0) return
+
+    const runMermaidFn = () => runMermaid($mermaid)
+    btf.addGlobalFn('themeChange', runMermaidFn, 'mermaid')
+    window.loadMermaid ? runMermaidFn() : btf.getScript('https://cdn.jsdelivr.net/npm/mermaid@10.9.0/dist/mermaid.min.js').then(runMermaidFn)
+  }
+  
+  btf.addGlobalFn('encrypt', loadMermaid, 'mermaid')
+  window.pjax ? loadMermaid() : document.addEventListener('DOMContentLoaded', loadMermaid)
+})()</script></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
