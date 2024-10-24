@@ -1,7 +1,7 @@
 ---
-title: asfasdasdd
+title: 2024 夏季宣讲会
 date: 2024-07-27T15:59:00.000Z
 ---
-dasasdasdasd
+如图可视
 
-![ooo](/images/post-24.jpg "oooo")
+![我们的宣讲会海报](/images/post-24.jpg "我们的宣讲会海报")
