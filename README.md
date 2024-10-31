@@ -1,5 +1,3 @@
 # blog-ncuscc
-our blog
 
-nm
-kk
+这是我们的官网 blog 
