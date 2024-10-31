@@ -12,3 +12,5 @@ date: 2024-10-24T18:38:00.000Z
 [](https://hexo.io/docs/one-command-deployment.html)你好你好，看得到吗？就算我们再也遇不到，也祝你早安，午安，晚安哦！@木梨 muyuliyan
 
 [](https://hexo.io/docs/one-command-deployment.html)所有命运的馈赠，早已在暗中标好了价格@李政阳 THINKER-ONLY
+
+[](https://hexo.io/docs/one-command-deployment.html)相信的心是你的魔法@咕嘟彩彩 CAICAIIs
