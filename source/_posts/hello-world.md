@@ -18,3 +18,5 @@ date: 2024-10-24T18:38:00.000Z
 [](https://hexo.io/docs/one-command-deployment.html)心向阳光，踏路生花，愿明天能见到更好的自己@赵震杰 codefashion007
 
 [](https://hexo.io/docs/one-command-deployment.html)我们的炒蒜队，命运共同体。 olddove-laoge
+
+[](https://hexo.io/docs/one-command-deployment.html)酸酸辣辣不要算啦算啦 @刘无语 21000-lwy
