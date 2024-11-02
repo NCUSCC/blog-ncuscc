@@ -15,4 +15,4 @@ date: 2024-10-24T18:38:00.000Z
 
 [](https://hexo.io/docs/one-command-deployment.html)相信的心是你的魔法@咕嘟彩彩 CAICAIIs
 
-[](https://hexo.io/docs/one-command-deployment.html)我们的炒蒜队，命运共同体。 olddove-laoge
+[](https://hexo.io/docs/one-command-deployment.html)我们的炒蒜队，命运共同体 @老鸽 olddove-laoge
