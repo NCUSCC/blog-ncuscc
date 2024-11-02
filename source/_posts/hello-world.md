@@ -16,3 +16,5 @@ date: 2024-10-24T18:38:00.000Z
 [](https://hexo.io/docs/one-command-deployment.html)相信的心是你的魔法@咕嘟彩彩 CAICAIIs
 
 [](https://hexo.io/docs/one-command-deployment.html)心向阳光，踏路生花，愿明天能见到更好的自己@赵震杰 codefashion007
+
+[](https://hexo.io/docs/one-command-deployment.html)我们的炒蒜队，命运共同体。 olddove-laoge
