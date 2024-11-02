@@ -20,3 +20,5 @@ date: 2024-10-24T18:38:00.000Z
 [](https://hexo.io/docs/one-command-deployment.html)我们的炒蒜队，命运共同体。 @老鸽 olddove-laoge
 
 [](https://hexo.io/docs/one-command-deployment.html)无限进步！@谭乐闻 t91161
+
+[](https://hexo.io/docs/one-command-deployment.html)我觉得这个机会可以改变我的生活@刘俊宏foho
