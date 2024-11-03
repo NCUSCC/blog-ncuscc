@@ -22,3 +22,4 @@ date: 2024-10-24T18:38:00.000Z
 [](https://hexo.io/docs/one-command-deployment.html)无限进步！@谭乐闻 t91161
 
 [](https://hexo.io/docs/one-command-deployment.html)我觉得这个机会可以改变我的生活@刘俊宏foho
+[](https://hexo.io/docs/one-command-deployment.html)做个正直的人，像白杨树那样挺拔而又有朝气@杨鑫瑞 Baiyanghebaiyang
