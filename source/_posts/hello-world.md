@@ -14,3 +14,17 @@ date: 2024-10-24T18:38:00.000Z
 [](https://hexo.io/docs/one-command-deployment.html)所有命运的馈赠，早已在暗中标好了价格@李政阳 THINKER-ONLY
 
 [](https://hexo.io/docs/one-command-deployment.html)相信的心是你的魔法@咕嘟彩彩 CAICAIIs
+
+[](https://hexo.io/docs/one-command-deployment.html)心向阳光，踏路生花，愿明天能见到更好的自己@赵震杰 codefashion007
+
+[](https://hexo.io/docs/one-command-deployment.html)我们的炒蒜队，命运共同体。 @老鸽 olddove-laoge
+
+[](https://hexo.io/docs/one-command-deployment.html)无限进步！@谭乐闻 t91161
+
+[](https://hexo.io/docs/one-command-deployment.html)我觉得这个机会可以改变我的生活@刘俊宏foho
+
+[](https://hexo.io/docs/one-command-deployment.html)酸酸辣辣不要算啦算啦 @刘无语 21000-lwy
+
+[](https://hexo.io/docs/one-command-deployment.html)“我们每个人都是时代的因和果”——jyy @文博 W1nnerBoo
+
+
