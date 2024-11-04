@@ -1,6 +1,7 @@
 ---
 title: Hello World
 date: 2024-10-24T18:38:00.000Z
+top_img: /images/postimage/Helloworld.svg
 ---
 
 你好，世界！我们是来自南昌大学超算俱乐部的成员，在这里向你致以问候。每位成员都将留下属于自己的话语，与大家分享我们的热情与想法。
